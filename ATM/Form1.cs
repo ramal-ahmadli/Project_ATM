@@ -19,7 +19,7 @@ namespace ATM
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int[] pins = { 1234 };
+            int[] pins = { 1234, 5678 };
 
             if(sifre.Text == pins[0].ToString())
             {
